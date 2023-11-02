@@ -1,0 +1,24 @@
+.footer{
+    padding: 10px;
+    background: var(--bg-gradient);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footerLink{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: #292929;
+    margin: 10px 0;
+    font-size: 12px;
+}
+.footerIcon{
+    width: 35px;
+    margin: 5px 0;
+}
